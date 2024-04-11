@@ -9,10 +9,10 @@ void wordParser(string word);
 int main() {
     srand(time(NULL));
 
-    string test = "I don't give a holstein for programmers that can only spell a variable one way. (Dr. Stephany)";
+    string test = "";
+    cout << "enter a test string: ";
+    cin >> test;
     wordParser(test);
-
-    return 0;
 }
 
 string scramble(string word) {
